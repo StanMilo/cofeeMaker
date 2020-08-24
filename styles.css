@@ -1,0 +1,265 @@
+
+ .title{
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  .max_width_wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .nav_top{
+    background-color:#734d26;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px;
+  }
+  .awsome_mail{
+    margin-left: 5px;
+  }
+  .contact_section{
+    float: left;
+    margin-left: 125px;
+  }
+  .icons_section{
+    float: right;
+    margin-right: 125px;
+  }
+  .phone_num{
+    margin: 0 10px 0px 5px;
+  }
+  .coffee_logo{
+    width: 175px;
+    height: auto;
+  }
+  .nav_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+  }
+  .about{
+    margin: 0 10px;
+  }
+  .center_img{
+    height: 400px;
+    display: flex;
+    width: 100%;
+    position: relative;
+  }
+  .coffee_beans{
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+  }
+  .awsome_coffee{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+    top: 25%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-shadow:
+        0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
+  }
+  .awsome_txt{
+    margin-bottom: 10px;
+    font-weight: 700; 
+    line-height: 24px;
+  }
+  .button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: white; 
+    color: black; 
+  }
+
+  .button1:hover {
+    background-color: #996433;
+    color: white;
+  }
+  .about_us_container{
+    text-align: center;
+  }
+  .random_txt{
+    text-align: justify;
+    padding: 0 10px;
+    margin-bottom: 120px;
+    line-height: 24px;
+  }
+  .grey_wrapper{
+    background-color: #f2f2f2;
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .card_container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card{
+    background-color: white;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .dot {
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-top: -25px;
+    text-align: center;
+  }
+  .fa-paper-plane, .fa-star, .fa-cog, .fa-umbrella{
+    margin-top: 18px;
+  }
+  .card_title{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .card_txt{
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 20px;
+  }
+  .card_btn{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .coffe_cup{
+    padding: 15px;
+    position: absolute;
+    width: 66.6666666667%;
+    height: 300px;
+    max-width: 680px;
+    right: 40.667%;
+    background: rgba(232,232,232,0.8);
+    top: 10%;
+  }
+  .coffe_cup_txt{
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.footer{
+  background-color: #734d26;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer_txt_wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.footer_txt{
+  color: white;
+}
+.logo_wrapper{
+  float: right;
+}
+.txt_container{
+  display: flex;
+}
+.line {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 1px solid white;
+}
+.copyright{
+  color: white;
+}
+.back_to_top{
+  float: right;
+  margin-right: 100px;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 900px){
+  a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1240px){
+  .coffe_cup{
+      position: absolute;
+      right: 16.667%;
+    overflow: auto;
+  }
+@media screen and (max-width: 646px){
+    .max_width_wrapper {
+      margin: 0 auto;
+      width: 100%;
+    }
+    .about_container{
+      margin: 0 auto;
+    }
+    .about{
+      display: block;
+      width: 100%;
+      margin: 12px 0;
+    }
+    .nav_top{
+      text-align: center;
+      height: 120px;
+    }
+    .icons_section {
+       float: none;
+       margin: 0;
+    
+  }
+}
+
+@media screen and (max-width: 836px){
+  .contact_section{
+    display: block
+  }
+}
+
+@media screen and (max-width: 770px){
+  .card_container{
+    display: block;
+  }
+  .icons-section {
+    float: none;
+    margin-right: 0;
+  }
+  .contact_section {
+   margin-left: 0;
+  }
+  .txt_container {
+    display: block;
+  }
+  .footer_txt_wrapper{
+    display: block;
+  }
+  .footer_txt {
+    margin-bottom: 20px;
+  }
+  .logo_wrapper {
+    float: none;
+    text-align: center;
+  }
+}
